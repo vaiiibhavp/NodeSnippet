@@ -1,0 +1,17 @@
+{
+  "name": "node-starter",
+  "version": "1.0.0",
+  "description": "Node starter for create application api interface.",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV='production' node ./server.js",
+    "dev": "SET NODE_ENV='development'&& nodemon server.js",
+    "install": "bcryptjs config cors express express-validator jsonwebtoken mongoose morgan nodemailer"
+  },
+  "author": "Prometteur Solution",
+  "license": "ISC"
+}
